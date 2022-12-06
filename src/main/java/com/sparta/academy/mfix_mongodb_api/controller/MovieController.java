@@ -231,7 +231,7 @@ public class MovieController {
         } catch (JsonProcessingException e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Error processing JSON");
         }
-        //if no issues occured then return the completed
+        //if no issues occurred then return the completed
         return response;
     }
 

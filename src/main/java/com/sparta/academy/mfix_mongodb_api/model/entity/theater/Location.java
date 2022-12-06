@@ -2,10 +2,7 @@ package com.sparta.academy.mfix_mongodb_api.model.entity.theater;
 
 public class Location{
 
-//	@Field
 	private Geo geo;
-
-//	@Field
 	private Address address;
 
 	public void setGeo(Geo geo) {

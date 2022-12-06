@@ -39,7 +39,7 @@ public class UserController {
     public ResponseEntity<String> deleteUser(@PathVariable String id) {
         if (userRepository.existsById(id)) {
             userRepository.deleteById(id);
-            return ResponseEntity.status(HttpStatus.OK).body("User with ID " + id + " has been deleted Successfully!");
+            return ResponseEntity.status(HttpStatus.OK).body("User with ID " + id + " has been deleted successfully!");
         }
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("No User with ID " + id);
     }

@@ -2,13 +2,9 @@ package com.sparta.academy.mfix_mongodb_api.model.entity.theater;
 
 import java.util.List;
 
-//@Document(collection = "geos")
 public class Geo{
 
-//	@Field
 	private List<Double> coordinates;
-
-//	@Field
 	private String type;
 
 	public void setCoordinates(List<Double> coordinates) {

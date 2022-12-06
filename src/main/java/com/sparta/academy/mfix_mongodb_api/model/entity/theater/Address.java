@@ -1,18 +1,10 @@
 package com.sparta.academy.mfix_mongodb_api.model.entity.theater;
 
-//@Document(collection = "addresses")
 public class Address {
 
-//    @Field
     private String zipcode;
-
-//    @Field
     private String city;
-
-//    @Field
     private String street1;
-
-//    @Field
     private String state;
 
     public void setZipcode(String zipcode) {

@@ -31,16 +31,6 @@ public class Theater {
         return id;
     }
 
-    @Override
-    public String toString() {
-        return
-                "TheaterDTO{" +
-                        "theaterId = '" + theaterId + '\'' +
-                        ",location = '" + location + '\'' +
-                        ",id = '" + id + '\'' +
-                        "}";
-    }
-
     public void setTheaterId(Integer theaterId) {
         this.theaterId = theaterId;
     }
@@ -51,5 +41,15 @@ public class Theater {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "TheaterDTO{" +
+                        "theaterId = '" + theaterId + '\'' +
+                        ",location = '" + location + '\'' +
+                        ",id = '" + id + '\'' +
+                        "}";
     }
 }
